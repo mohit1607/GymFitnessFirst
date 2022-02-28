@@ -1,0 +1,32 @@
+$primary-color: #000000;
+$secondary-color:#A7D129;
+$third-color:#3E432E;
+$fourth-color:#616F39;
+
+.colsi{
+    background-color: $secondary-color;
+    padding-inline: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .col{
+        flex: 1;
+        text-align: center;
+
+        .heading{
+            font-size: 130px;
+            color: $primary-color;
+            font-weight: bold;
+            min-width: 600px;
+        }
+
+        p{
+            text-align: center;
+            font-size: 24px;
+
+        }
+    }
+}

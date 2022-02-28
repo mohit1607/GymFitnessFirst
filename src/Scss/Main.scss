@@ -1,0 +1,73 @@
+$primary-color: #000000;
+$secondary-color:#A7D129;
+$third-color:#3E432E;
+$fourth-color:#616F39;
+
+
+
+.instructor{
+    display: flex;
+    padding: 5% 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    color: white;
+    flex-wrap: wrap;
+
+    
+
+    .boxe{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+         
+        h2{
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        
+        .clipPath{
+            -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+            background-color: $fourth-color;
+            transform: scaleX(-1);
+            height: auto;
+            min-width: 300px;
+            z-index: 100;
+        }
+    }
+
+    .boxes{
+        flex: 1;
+        
+        hr{
+            height:8px;
+            width: 100%;
+            border: none;
+            background-color: $third-color;
+        }
+
+        .specs{
+            padding: 20px 40px;
+            background-color: $primary-color;
+            color: $secondary-color;
+            border: 1px solid white;
+            font-size:24px;
+            width: 70%;
+            letter-spacing: 2px;
+            font-weight: bolder;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+        }
+
+        .specs:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 50px 2px $secondary-color;
+        }
+    }
+
+}

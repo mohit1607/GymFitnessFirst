@@ -1,0 +1,23 @@
+
+$primary-color: #000000;
+$secondary-color:#A7D129;
+$third-color:#3E432E;
+$fourth-color:#616F39;
+
+
+.nav{
+    background-color: $secondary-color;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2% 4%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: fixed;
+    display: none;
+
+    a{
+        text-decoration: none;
+        color: $primary-color;
+    }
+}

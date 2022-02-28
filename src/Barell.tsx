@@ -1,0 +1,7 @@
+export {Main} from './Components/Main'
+export { Header} from './Components/Header'
+export { Footer} from './Components/Footer'
+export { Vision} from './Components/Vision'
+export { Certification} from './Components/Certification'
+export {NavBar} from './Components/NavBar'
+export {Cp} from './Components/Cp'

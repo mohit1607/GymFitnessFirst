@@ -1,0 +1,38 @@
+$primary-color: #000000;
+$secondary-color:#A7D129;
+$third-color:#3E432E;
+$fourth-color:#616F39;
+
+
+section{
+    background-color: $primary-color;
+    padding-inline: 5%;
+    .heading{
+        font-size: 10vw;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        color: $third-color;
+
+    }
+
+    .cols{
+        padding-inline: 5%;
+        padding: 3%;
+        
+
+        img{
+            width: 100%;
+            height: auto;
+            border: 5px solid $fourth-color;
+            border-radius: 20px;
+            //responsive image
+        }
+
+        h1{
+            color: $secondary-color;
+            font-size:32px;
+            text-align: center;
+        }
+    }
+}
