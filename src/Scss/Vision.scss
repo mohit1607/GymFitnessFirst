@@ -23,10 +23,19 @@ $fourth-color:#616F39;
             min-width: 600px;
         }
 
-        p{
-            text-align: center;
+        .visionText{
+            text-align: start;
             font-size: 24px;
 
         }
     }
+}
+
+@media screen and (min-width: 600px){
+  .col {
+      .visionText{
+          text-align: center;
+          // this is not working.
+      }
+  }
 }

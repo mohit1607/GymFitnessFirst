@@ -1,3 +1,8 @@
+$primary-color: #000000;
+$secondary-color:#A7D129;
+$third-color:#3E432E;
+$fourth-color:#616F39;
+
 *{
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
@@ -12,3 +17,17 @@
         text-align: center;
     }
 }
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #212121;
+  }
+  
+  /* Track */
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $secondary-color;
+    border-radius: 10px;
+  }

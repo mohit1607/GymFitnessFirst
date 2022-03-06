@@ -4,7 +4,7 @@ $third-color:#3E432E;
 $fourth-color:#616F39;
 
 @mixin container{
-    padding: 5% 10%;
+    padding-inline: 5%; 
 }
 
 // .menu{
@@ -23,9 +23,15 @@ $fourth-color:#616F39;
     @include container;
     background-color: $primary-color;
     display: none;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     
     img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo{
         width: 100px;
         height: 100px;
     }
@@ -35,8 +41,9 @@ $fourth-color:#616F39;
     
     @include container;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: $primary-color;
+    
     
 
     a{
@@ -80,7 +87,7 @@ $fourth-color:#616F39;
 
 @media screen and (max-width:600px){
     .headNav{
-        display: none
+        display: none;
     }
     .burgerMenu{
         display: flex;
@@ -91,6 +98,7 @@ $fourth-color:#616F39;
 .Hero{
     @include container;
     display: flex;
+    padding-block: 5%;
     background-color: $primary-color;
     flex-wrap: wrap-reverse;
     color: white;
